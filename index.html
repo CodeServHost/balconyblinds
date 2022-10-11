@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <title>Livin Blind Landing Page</title>
+    <title>Balcony Blinds</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
 
@@ -21,6 +21,8 @@
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
 
     <link href="assets/css/style.css" rel="stylesheet" />
 </head>
@@ -30,7 +32,7 @@
     <header id="header" class="fixed-top d-flex align-items-center header-transparent">
         <div class="container d-flex justify-content-between align-items-center">
             <div id="logo">
-                <h1><a href="index.html">Exterior Blinds</a></h1>
+                <h1><a href="index.html">Balcony Blinds</a></h1>
                 <!-- Uncomment below if you prefer to use an image logo -->
                 <!-- <a href="index.html"><img src="assets/img/logo.png" alt=""></a> -->
             </div>
@@ -38,8 +40,11 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#about">Benefits</a></li>
                     <li><a class="nav-link scrollto" href="#gallery">Products</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="#testimonial">Testimonials</a>
+                    </li>
                     <!-- <li class="dropdown">
                         <a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i
               ></a>
@@ -77,34 +82,38 @@
                 <div class="col-md-6">
                     <div class="hero-text" data-aos="zoom-out">
                         <h2>
-                            Enhance your facade Aesthetics with livin external solution
+                            Keep your Interior more comfortable and private with Balcony Blinds
                         </h2>
                         <p>
-                            LIVIN offers an extensive range of exterior blinds to complement any external facade. These outdoor sunshades are built tough enough to withstand the harshest treatments by reducing sun penetration and absorbing heat.
+                            Livin offers an extensive range of exterior blinds to complement any external facade. These outdoor sunshades are built tough enough to withstand the harshest treatments by reducing sun penetration and absorbing heat.
                         </p>
-                        <a href="" class="btn-get-started scrollto">Products</a>
+                        <a href="#gallery" class="btn-get-started scrollto">Gallery</a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <form class="row g-3">
-                        <h1>Enquiry Form</h1>
+                        <h1>Inquiry Form</h1>
+                        <div class="form-description">
+                            Contact Expert by filling the Inquiry Form and <br /> Get a Free Demo.
+                        </div>
                         <div class="col-12">
                             <input type="text" class="form-control" placeholder="Your Name" required />
                         </div>
                         <div class="col-12">
                             <input type="email" class="form-control" placeholder="Email ID" required />
                         </div>
-                        <div class="col-12">
+                        <div class="col-6">
                             <input type="tel" class="form-control" placeholder="Phone Number" required />
                         </div>
-                        <div class="col-12">
+                        <div class="col-6">
                             <input type="text" class="form-control" placeholder="Address" />
                         </div>
                         <div class="col-12">
-                            <textarea type="msg" class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                            <textarea type="msg" class="form-control" rows="2" placeholder="Your Message" required></textarea>
                         </div>
-                        <div class="col-12">
+                        <div class="col-12 buttons">
                             <button type="submit" class="btn btn-primary">Submit</button>
+                            <a href="" type="button" class="expert_call">Contact Expert</a>
                         </div>
                     </form>
                 </div>
@@ -113,28 +122,96 @@
     </section>
     <!-- End Hero Section -->
 
+    <!-- Testimonial Section -->
+    <section id="testimonial">
+        <div class="swiper test_slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/img/testimonials/1.jpg" alt="" />
+                    <h1>Deepak Bharadwaj</h1>
+                    <p>
+                        <img class="left_quote" src="assets/img/quote/left-quote.png" alt="" /> LivinBlinds is a great company to work with,they have all the facilities which a blinds users needs.they produce an extensive line up of superior products
+                        to choose for all blinds.
+                        <img class="right_quote" src="assets/img/quote/right-quote.png" alt="" />
+                    </p>
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/testimonials/2.jfif" alt="" />
+                    <h1>Harminder Singh</h1>
+                    <p>
+                        <img class="left_quote" src="assets/img/quote/left-quote.png" alt="" />These blinds are beautiful. The quality of the blinds is really good. We had a professional joiner fit them for us and they look really great. We will be ordering
+                        more.
+                        <img class="right_quote" src="assets/img/quote/right-quote.png" alt="" />
+                    </p>
+                </div>
+
+                <div class="swiper-slide">
+                    <img src="assets/img/testimonials/3.jfif" alt="" />
+                    <h1>Sandeep Bihari</h1>
+                    <p>
+                        <img class="left_quote" src="assets/img/quote/left-quote.png" alt="" /> I’m very thankful for such a beautiful advice on curtains in our new home.i’m very happy the way they have turned out and also how the blinds are complementing
+                        my new home.
+                        <img class="right_quote" src="assets/img/quote/right-quote.png" alt="" />
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- End Testimonial Section -->
+
     <main id="main">
         <!-- ======= About Section ======= -->
         <section id="about" class="section-bg">
             <div class="container-fluid" data-aos="fade-up">
                 <div class="row">
-                    <div class="col-lg-6 about-img" data-aos="fade-right" dat-aos-delay="100">
-                        <video controls poster="assets/img/advanced-feature.jpeg">
-                <source
-                  src="assets/video/exterior-blind.mp4"
-                  type="video/mp4"
-                />
-              </video>
+                    <div class="col-lg-6" data-aos="fade-right" dat-aos-delay="100">
+                        <div class="video-content">
+                            <video src="assets/video/exterior-blind.mp4" class="my-video" onclick="target_video()"></video>
+                            <div class="play-pause" onclick="target_video()">
+                                <div class="video-icon"></div>
+                                <div class="btn-cover">
+                                    <i class="fa-solid fa-play fa-2x"></i>
+                                </div>
+                            </div>
+                            <div class="video-black"></div>
+                        </div>
                     </div>
 
                     <div class="col-lg-6 content" data-aos="fade-left" dat-aos-delay="100">
-                        <h2>
-                            Safeguard your Interior space and outdoor area with these custom-made protective blinds.
-                        </h2>
+                        <h2>Our Blind Benefits</h2>
                         <p>
-                            LIVIN outdoor window shades are made of premium quality material and are available in different thicknesses. These Blinds are made of waterproof material, so the PVC material will not mildew, ideal for monsoon weather. These custom fits roll up sunshades
-                            withstand harsh weather conditions in India like rain, wind, severe glare or heat. The exterior blinds themselves are sturdy, yet simple to handle and maintain.
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est facilis eligendi vel!
                         </p>
+                        <ul class="benefits">
+                            <li>
+                                <img src="assets/img/check.png" alt="" />
+                                <p>Increases Cooling Effects.</p>
+                            </li>
+                            <li>
+                                <img src="assets/img/check.png" alt="" />
+                                <p>Soothing in the Eyes.</p>
+                            </li>
+                            <li>
+                                <img src="assets/img/check.png" alt="" />
+                                <p>
+                                    Filters only Sunlight. So, you don't feel claustrophobic.
+                                </p>
+                            </li>
+
+                            <li>
+                                <img src="assets/img/check.png" alt="" />
+                                <p>
+                                    Protects Furniture from fading by cutting out the UV rays.
+                                </p>
+                            </li>
+                            <li>
+                                <img src="assets/img/check.png" alt="" />
+                                <p>Enhance the outdoor view.</p>
+                            </li>
+                        </ul>
                         <!-- 
                         <h3>
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -293,8 +370,8 @@
                 <div class="row g-0">
                     <div class="col-lg-4 col-md-6">
                         <div class="gallery-item">
-                            <a href="assets/img/gallery/p1.jpeg" data-gall="portfolioGallery" class="gallery-lightbox">
-                                <img src="assets/img/gallery/p1.jpeg" alt="" />
+                            <a href="assets/img/gallery/p1.webp" data-gall="portfolioGallery" class="gallery-lightbox">
+                                <img src="assets/img/gallery/p1.webp" alt="" />
                             </a>
                         </div>
                     </div>
@@ -348,9 +425,8 @@
             <div class="features-row section-bg" data-aos="fade-up">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12">
-                            <img class="advanced-feature-img-right wow fadeInRight" src="assets/img/advanced-feature.jpeg" alt="" />
-                            <div>
+                        <div class="col-6">
+                            <div class="advance-features-content">
                                 <h2>
                                     Amalgamation of tailored blinds along with strong & robust motorization for any requirements
                                 </h2>
@@ -361,14 +437,94 @@
                                 </p>
                             </div>
                         </div>
+                        <div class="col-6">
+                            <img class="advanced-feature-img fadeInRight" src="assets/img/advanced-feature.jpeg" alt="" />
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- End Advanced Featuress Section -->
 
+        <!-- ======= extra Section ======= -->
+        <!--   <section id="extra">
+            <div class="container-fluid">
+                <div class="section-header">
+                    <h3 class="section-title">Deal With</h3>
+                    <span class="section-divider"></span>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-3">
+                        <img class="fadeInRight" src="assets/img/gallery/p2.jpeg" alt="" />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="fadeInRight" src="assets/img/gallery/p3.jpeg" alt="" />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="fadeInRight" src="assets/img/gallery/p4.jpeg" alt="" />
+                    </div>
+                    <div class="col-md-3">
+                        <img class="fadeInRight" src="assets/img/gallery/p5.jpeg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End extra Section -->
+
+        <!-- ======= Team Section ======= -->
+        <!--  <section id="team" class="section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-header">
+                    <h3 class="section-title">Our Work</h3>
+                    <span class="section-divider"></span>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="pic">
+                                <img src="assets/img/gallery/p2.jpeg" alt="" />
+                            </div>
+                            <h4>Product1</h4>
+                            <span>Product</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="pic">
+                                <img src="assets/img/gallery/p5.jpeg" alt="" />
+                            </div>
+                            <h4>Product2</h4>
+                            <span>Product</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="pic">
+                                <img src="assets/img/gallery/p4.jpeg" alt="" />
+                            </div>
+                            <h4>Product3</h4>
+                            <span>Product</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="member">
+                            <div class="pic">
+                                <img src="assets/img/gallery/p1.jpeg" alt="" />
+                            </div>
+                            <h4>Product4</h4>
+                            <span>Product</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End Team Section -->
+
         <!-- ======= Clients Section ======= -->
-        <!-- <section id="clients">
+        <!--         <section id="clients">
             <div class="container" data-aos="fade-up">
                 <div class="row">
                     <div class="col-md-2">
@@ -396,100 +552,9 @@
                     </div>
                 </div>
             </div>
-        </section> -->
-        <!-- End Clients Section -->
-
-        <!-- ======= Pricing Section ======= -->
-        <!--         <section id="pricing" class="section-bg">
-            <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                    <h3 class="section-title">Pricing</h3>
-                    <span class="section-divider"></span>
-                    <p class="section-description">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                    </p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <h3>Free</h3>
-                            <h4><sup>$</sup>0<span> month</span></h4>
-                            <ul>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Quam adipiscing vitae proin
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Nec feugiat nisl pretium
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Nulla at volutpat diam uteera
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Pharetra massa massa ultricies
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Massa ultricies mi quis hendrerit
-                                </li>
-                            </ul>
-                            <a href="#" class="get-started-btn">Get Started</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="box featured">
-                            <h3>Business</h3>
-                            <h4><sup>$</sup>29<span> month</span></h4>
-                            <ul>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Quam adipiscing vitae proin
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Nec feugiat nisl pretium
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Nulla at volutpat diam uteera
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Pharetra massa massa ultricies
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Massa ultricies mi quis hendrerit
-                                </li>
-                            </ul>
-                            <a href="#" class="get-started-btn">Get Started</a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6">
-                        <div class="box">
-                            <h3>Developer</h3>
-                            <h4><sup>$</sup>49<span> month</span></h4>
-                            <ul>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Quam adipiscing vitae proin
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Nec feugiat nisl pretium
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Nulla at volutpat diam uteera
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Pharetra massa massa ultricies
-                                </li>
-                                <li>
-                                    <i class="bi bi-check-circle"></i> Massa ultricies mi quis hendrerit
-                                </li>
-                            </ul>
-                            <a href="#" class="get-started-btn">Get Started</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </section>
  -->
-        <!-- End Pricing Section -->
+        <!-- End Clients Section -->
 
         <!-- ======= Frequently Asked Questions Section ======= -->
         <!--         <section id="faq">
@@ -586,86 +651,6 @@
         </section>
  -->
         <!-- End Frequently Asked Questions Section -->
-
-        <!-- ======= Team Section ======= -->
-        <!--         <section id="team" class="section-bg">
-            <div class="container" data-aos="fade-up">
-                <div class="section-header">
-                    <h3 class="section-title">Our Team</h3>
-                    <span class="section-divider"></span>
-                    <p class="section-description">
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="member">
-                            <div class="pic">
-                                <img src="assets/img/team/team-1.jpg" alt="" />
-                            </div>
-                            <h4>Walter White</h4>
-                            <span>Chief Executive Officer</span>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="member">
-                            <div class="pic">
-                                <img src="assets/img/team/team-2.jpg" alt="" />
-                            </div>
-                            <h4>Sarah Jhinson</h4>
-                            <span>Product Manager</span>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="member">
-                            <div class="pic">
-                                <img src="assets/img/team/team-3.jpg" alt="" />
-                            </div>
-                            <h4>William Anderson</h4>
-                            <span>CTO</span>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="member">
-                            <div class="pic">
-                                <img src="assets/img/team/team-4.jpg" alt="" />
-                            </div>
-                            <h4>Amanda Jepson</h4>
-                            <span>Accountant</span>
-                            <div class="social">
-                                <a href=""><i class="bi bi-twitter"></i></a>
-                                <a href=""><i class="bi bi-facebook"></i></a>
-                                <a href=""><i class="bi bi-instagram"></i></a>
-                                <a href=""><i class="bi bi-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
- -->
-        <!-- End Team Section -->
     </main>
     <!-- End #main -->
 
@@ -710,7 +695,31 @@
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".test_slider", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 5000,
+                /* 
+                                                                                                                                                                                                                                                                                                           disableOnInteraction: false, */
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+                dynamicBullets: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
 </body>
