@@ -759,7 +759,6 @@ section {
 #about .video-content {
     height: 366px;
     margin: 10% 0;
-    background-color: #025ca6;
     border-radius: 6px;
     position: relative;
 }
@@ -1033,6 +1032,57 @@ section {
         float: none;
         padding: 0 0 30px 0;
     }
+}
+
+#advanced-features .advance-video-content {
+    height: 366px;
+    margin: 0;
+    border-radius: 6px;
+    position: relative;
+}
+
+#advanced-features .advance-video-content .videoblack {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 6px;
+    transition: all 0.5 ease;
+    background: rgba(0, 0, 0, 0.264);
+    z-index: 98;
+}
+
+#advanced-features .advance-video-content .videoicon {
+    position: absolute;
+    left: 44%;
+    top: 38%;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    animation: video 2s linear 0.6s infinite normal;
+    z-index: 99;
+}
+
+#advanced-features .advance-video-content .btncover {
+    position: absolute;
+    left: 44%;
+    top: 38%;
+    border: 0;
+    background: #00437a;
+    width: 60px;
+    height: 60px;
+    padding: 2.2% 3.5%;
+    color: #fff;
+    border-radius: 50%;
+    z-index: 100;
+}
+
+#advanced-features .advance-video-content video {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
 }
 
 

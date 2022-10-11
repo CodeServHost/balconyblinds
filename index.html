@@ -438,7 +438,16 @@
                             </div>
                         </div>
                         <div class="col-6">
-                            <img class="advanced-feature-img fadeInRight" src="assets/img/advanced-feature.jpeg" alt="" />
+                            <div class="advance-video-content">
+                                <video src="assets/video/blinds.mp4" class="myvideo" onclick="target__video()"></video>
+                                <div class="playpause" onclick="target__video()">
+                                    <div class="videoicon"></div>
+                                    <div class="btncover">
+                                        <i class="fa-solid fa-play fa-2x"></i>
+                                    </div>
+                                </div>
+                                <div class="videoblack"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -707,7 +716,7 @@
             autoplay: {
                 delay: 5000,
                 /* 
-                                                                                                                                                                                                                                                                                                           disableOnInteraction: false, */
+                                                                                                                                                                                                                                                                                                                                                                                                                                         disableOnInteraction: false, */
             },
             pagination: {
                 el: ".swiper-pagination",

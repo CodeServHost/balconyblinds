@@ -3,12 +3,28 @@ let myvideo = document.querySelector(".my-video");
 function target_video() {
     if (myvideo.paused) {
         myvideo.play();
+        myvideo2.pause();
         document.querySelector(".play-pause").style.display = "none";
         document.querySelector(".video-black").style.display = "none";
     } else {
         myvideo.pause();
         document.querySelector(".play-pause").style.display = "inline-block";
         document.querySelector(".video-black").style.display = "inline-block";
+    }
+}
+
+let myvideo2 = document.querySelector(".myvideo");
+
+function target__video() {
+    if (myvideo2.paused) {
+        myvideo2.play();
+        myvideo.pause();
+        document.querySelector(".playpause").style.display = "none";
+        document.querySelector(".videoblack").style.display = "none";
+    } else {
+        myvideo2.pause();
+        document.querySelector(".playpause").style.display = "inline-block";
+        document.querySelector(".videoblack").style.display = "inline-block";
     }
 }
 
