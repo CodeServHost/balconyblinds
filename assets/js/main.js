@@ -1,9 +1,10 @@
 let myvideo = document.querySelector(".my-video");
+let video1 = document.querySelector(".myvideo1");
+let video2 = document.querySelector(".myvideo2");
 
 function target_video() {
     if (myvideo.paused) {
         myvideo.play();
-        myvideo2.pause();
         document.querySelector(".play-pause").style.display = "none";
         document.querySelector(".video-black").style.display = "none";
     } else {
@@ -13,21 +14,23 @@ function target_video() {
     }
 }
 
-let myvideo2 = document.querySelector(".myvideo");
-
-function target__video() {
-    if (myvideo2.paused) {
-        myvideo2.play();
+function gallery_video1() {
+    if (video1.paused) {
+        video1.play();
         myvideo.pause();
-        document.querySelector(".playpause").style.display = "none";
-        document.querySelector(".videoblack").style.display = "none";
     } else {
-        myvideo2.pause();
-        document.querySelector(".playpause").style.display = "inline-block";
-        document.querySelector(".videoblack").style.display = "inline-block";
+        video1.pause();
     }
 }
 
+function gallery_video2() {
+    if (video2.paused) {
+        video2.play();
+        myvideo.pause();
+    } else {
+        video1.pause();
+    }
+}
 (function() {
     "use strict";
 
